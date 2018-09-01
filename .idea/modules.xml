@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ComponentProject.iml" filepath="$PROJECT_DIR$/ComponentProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/froute/froute.iml" filepath="$PROJECT_DIR$/froute/froute.iml" />
       <module fileurl="file://$PROJECT_DIR$/livedata/livedata.iml" filepath="$PROJECT_DIR$/livedata/livedata.iml" />
     </modules>
   </component>

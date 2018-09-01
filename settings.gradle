@@ -1,1 +1,1 @@
-include ':app', ':livedata'
+include ':app', ':livedata', ':froute'
