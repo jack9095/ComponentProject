@@ -1,4 +1,4 @@
-package com.example.gaodun.componentproject;
+package com.dream.base;
 
 import org.junit.Test;
 

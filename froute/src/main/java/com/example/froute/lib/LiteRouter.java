@@ -10,6 +10,7 @@ import java.lang.reflect.Proxy;
  *
  */
 public final class LiteRouter {
+
     private Interceptor interceptor;
 
     LiteRouter(Interceptor interceptor) {
@@ -28,8 +29,7 @@ public final class LiteRouter {
         return (T) Proxy.newProxyInstance(service.getClassLoader(), new Class<?>[]{service},
                 new InvocationHandler() {
                     @Override
-                    public Object invoke(Object proxy, Method method, Object... args)
-                            throws Throwable {
+                    public Object invoke(Object proxy, Method method, Object... args) throws Throwable {
                         IntentWrapper intentWrapper = loadIntentWrapper(context, method, args);
 
                         Class returnTYpe = method.getReturnType();
@@ -46,7 +46,7 @@ public final class LiteRouter {
                 });
     }
 
-    IntentWrapper loadIntentWrapper(Context context, Method method, Object... args) {
+    private IntentWrapper loadIntentWrapper(Context context, Method method, Object... args) {
         return new IntentWrapper.Builder(context, method, args).build();
     }
 

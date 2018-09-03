@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * Created by fei.wang on 2018/9/1.
- *
+ * parameter 参数
  */
 @Target(ElementType.PARAMETER)
 @Retention(RetentionPolicy.RUNTIME)

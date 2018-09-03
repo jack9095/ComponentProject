@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 /**
  * Created by fei.wang on 2018/9/1.
- *
+ * Intent包装器
  */
 public class IntentWrapper {
     private int mFlags;
